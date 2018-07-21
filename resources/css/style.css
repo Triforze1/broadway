@@ -5,6 +5,16 @@
 
 a {
   color: white;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .background1 h1 {
@@ -13,6 +23,10 @@ a {
 }
 
 .background1 nav {
+  font-size: 18px;
+}
+
+.b.nav {
   font-size: 18px;
 }
 
@@ -26,11 +40,23 @@ a {
   font-weight: bold;
 }
 
-.background1, .background2, .background3 {
+.background1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
   color: white;
+}
+
+.background2 {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+    color: white;
 }
 
 .background3 {
   text-align: left;
+  background-color: dimgray;
+}
+
+span {
+  font-size: 11px;
+  color: white;
 }
